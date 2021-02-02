@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #parent1>h2 {
+            color: red;
+        } */
+        
+        #parent1>h2 {
+            color: red;
+        }
+        /*         
+        #parent1+h2 {
+            color: green;
+        } */
+        
+        #parent1~h2 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent1">
+        <h2>child</h2>
+        <h2>child</h2>
+        <h2>child</h2>
+        <h2>child</h2>
+        <div class="child">
+            <h2>grand child</h2>
+            <h2>grand child</h2>
+            <h2>grand child</h2>
+            <h2>grand child</h2>
+            <h2>grand child</h2>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <h2>Outside parent</h2>
+</body>
+
+</html>
