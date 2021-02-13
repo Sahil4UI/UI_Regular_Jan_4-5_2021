@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 12px 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* bottom: 0; */
+}
+
+#sidebar_1 {
+    float: left;
+    width: 20%;
+    height: 300px;
+    position: sticky;
+    top: 100px;
+    background-color: lightgray;
+    overflow-y: scroll;
+}
+
+#content {
+    margin-top: 150px;
+}
+
+.image {
+    position: relative;
+}
+
+.icon {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* right: 50%; */
+    /* bottom:0; */
+}
+
+#main {
+    float: left;
+    width: 58%;
+}
+
+.clear-fix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#sidebar_2 {
+    float: left;
+    width: 20%;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+}

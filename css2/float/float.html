@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent div {
+            width: 50%;
+        }
+        
+        .col-1 {
+            float: left;
+        }
+        
+        .col-2 {
+            float: right;
+        }
+        
+        .row:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Float</h1>
+    <div id="parent" class="row">
+        <div class="col-1">
+            <h2>This is column 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo voluptates distinctio! Ad minus blanditiis reiciendis, quae deleniti beatae veritatis sunt ducimus reprehenderit non, perspiciatis excepturi? Est natus ullam provident!
+            </p>
+        </div>
+        <div class="col-2">
+            <h2>This is column 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus quisquam culpa, commodi ipsam libero perferendis voluptate officiis, maxime fugit nostrum rerum! Dolorem, facere ea cumque placeat deserunt fuga? Praesentium.</p>
+        </div>
+    </div>
+
+    <div class="div1">
+        <h2>This is another div</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eligendi quibusdam repudiandae voluptatem aut deserunt, sunt est ad, eaque molestiae id animi voluptas dolor dolorem corrupti nisi quae pariatur. Ab.</p>
+    </div>
+</body>
+
+</html>
